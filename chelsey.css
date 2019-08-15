@@ -1,0 +1,281 @@
+
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Londrina Shadow', cursive;
+font-family: 'Jacques Francois Shadow', cursive;
+*/
+*{
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box; 
+
+}
+header, footer{
+	color: #414112;
+	background-color: #F2D2D5;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+header{
+	padding: 10px;
+}
+.head{
+	padding: 2px;
+	border: 5px solid #FFFFFF;
+}
+.introphotos{
+/*	border: 5px solid #AFAFAF; 
+*/	padding-top: 5px;
+	padding-left: 5px; 
+	display: flex;
+
+}
+.pic{
+	display: block; 
+}
+.foot{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.copyright{
+	color: #FFFFFF;
+}
+body {
+  font-size: 18px;   
+}
+.box{
+height: 200px;
+/*border: 2px solid #DDDDDD; */
+}
+.responsive{
+	width: 100%;
+	height: auto;
+}
+.formbox{
+	position: fixed; 
+  	bottom: 50px; 
+ 	right: 5px;  
+	height: 125px; 
+	width: 200px; 
+	border: 2px solid #EEDCDF;
+	background-color: #DF9BA3; 
+	border-radius: 3px; 
+}
+.sub{
+	color: #FFFFFF;
+	text-align: center; 
+}
+
+.wrap{
+	display: flex; 
+	padding: 5px;
+	padding-right: 5px;  
+	max-width: 1200px; 
+	height: auto;
+	justify-content: center;
+}
+.anotha {
+  max-width: 1500px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*body{
+	background-image: url("/Users/chelseyywang/Desktop/jewelrystore/whiterose.jpg"), url("/Users/chelseyywang/Desktop/jewelrystore/whiterose.jpg"); 
+	background-position: left 280px, right 280px;
+	background-repeat: repeat-y, repeat-y;
+	background-size: 10%, 10%;
+}*/
+.container {
+  display: flex;
+  justify-content: center;
+}
+.example {
+  display: flex;
+  justify-content: space-around;
+  /*CHANGING HERE*/
+ /* width: 800px;*/
+ max-width: 850px; 
+/*border: 5px solid #AFAFAF;*/
+padding-left: 25px;
+padding-right: 25px;
+margin: 20px 0;
+  background-color: #FFFFFF;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #D599A2; 
+	text-align: center;
+	font-weight: normal;
+
+}
+.hey{
+	display: flex;
+  justify-content: space-around;
+  /*CHANGING HERE*/
+ /* width: 800px;*/
+ max-width: 1050px; 
+/*border: 5px solid #AFAFAF;*/
+/*padding-left: 25px;
+padding-right: 25px;*/
+/*margin: 20px 0;
+*/  background-color: #FFFFFF;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #D599A2; 
+	text-align: center;
+	font-weight: normal;
+	margin-top: 5px; 
+}
+.item img {
+  display: block;
+  /*width: 300px;/*used to be 100%*/ /*THIS IS WHERE TO ADJUST SIZE OF OPENING PICTURES*/
+  /*height: auto;*/ 
+}
+.cla{
+	border-left: 10px solid #FFFFFF; 
+}
+.gra{
+	border-right: 10px solid #FFFFFF; 
+}
+
+.item-absolute{
+  position: relative;
+  left: 10px;
+}
+
+.merch img {
+  display: block;
+  /*max-width: 100%; 
+  height: auto;*/ 
+}
+
+.first{
+	text-align: center; 
+}
+.linkswrap{
+	justify-content: center;
+	align-content: center;
+}
+.links {
+	display: flex; 
+	flex-direction: row; 
+	justify-content: flex-start;
+	list-style: none; 
+	padding: 0; 
+	white-space: nowrap;
+}
+ul li {
+	display: inline;
+	padding-right: 25px; 
+	padding-left: 25px; 
+
+}
+.lnk{
+	display: flex;
+	flex-direction: row; 
+	max-width: 1000px; 
+	text-align: center;
+	padding-bottom: 25px; 
+	padding-top: 25px; 
+	font-family: 'Josefin Sans', sans-serif;
+}
+.lnkstuff{
+	padding-left: 25px; 
+	padding-right: 25px; 
+	color: #D599A2;
+	font-family: 'Josefin Sans', sans-serif;
+/*	font-family: "Andale Mono"; 
+*/	font-weight: normal;
+}
+h1 {
+	font-size: 60px; 
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Josefin Sans', sans-serif;
+	/*"Roboto", Optima","Calibri", "Arial", sans-serif; */
+	font-weight: lighter; /*bold*/
+	font-style: normal; /*italicized*/
+}
+/*h2 {
+	font-family: "Andale Mono", "Papyrus", "Brush Script MT";
+	font-weight: lighter;
+}*/
+
+.prod{
+	color: #D599A2; 
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px; 
+	padding: 10px; 
+}
+.pro{
+	/*font-size: 50px; */
+	font-weight: bolder; 
+}
+.name{
+	font-size: 20px; 
+	padding: 5px; 
+}
+
+.ba{
+	display: block; 
+}
+
+.menu {
+  height: 100px;
+  background-color: #B2D6FF;    /* Medium blue */
+}
+
+.sidebar {
+	float: left;
+	width: 50%;
+  height: 300px;
+  background-color: #F09A9D;    /* Red */
+}
+
+.content {
+	float: left;
+  height: 500px;
+  width: 50%; 
+  background-color: #F5CF8E;    /* Yellow */
+}
+
+.footer {
+	clear: both; /*ignore float behavior--does not wrap around*/
+  height: 200px;
+  background-color: #D6E9FE;    /* Light blue */
+}
+.page{
+	width: 600px; 
+	margin: 0 auto; /*centers it*/
+	border: 1px solid red
+	overflow: hidden; /*recognize height of floated elements*/
+}
+.column {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 120px;
+  background-color: #B2D6FF;    /* Medium blue */
+}
+.parabox{
+	border: 10px solid #FFFFFF;
+}
+.para{
+	border: 3px solid #D599A2;
+	max-width: 800px; 
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}
+.ah{
+	text-align: center;
+}
+/*overflow hidden horizontally clears stuff*/
